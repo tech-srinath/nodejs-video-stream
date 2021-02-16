@@ -46,6 +46,6 @@ app.get("/video", function (req, res) {
     videoStream.pipe(res);
 });
 
-app.listen(8000, '192.168.0.102', function () {
+app.listen(8000, '127.0.0.1', function () {
     console.log("Listening on port 8000!");
 });
